@@ -1,0 +1,154 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 68px;
+  background-color: #f8f8f8;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-weight: semibold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 68px;
+  background-color: #e0e0e0;
+  height: 450px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 20px;
+  font-weight: semibold;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  font-weight: semibold;
+}
+
+.hero-text p {
+  font-size: 17px;
+}
+
+.hero-text button {
+  padding: 12px 64px;
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 68px;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.projects h2 {
+  font-size: 32px;
+  font-weight: semibold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 30%;
+}
+
+.project1 img {
+  transition: transform 0.3s ease; /* Add transition for smooth enlargement */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.project1 img:hover {
+  transform: scale(1.1); /* Enlarge image on hover */
+}
+.project2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 30%;
+}
+.project3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 30%;
+}
+
+.project-image img {
+  width: 418px;
+  height: 330px;
+}
+
+.project-info {
+  max-width: 60%;
+}
+
+.project-info h3 {
+  font-size: 20px;
+  font-weight: semibold;
+}
+
+.project-info p {
+  font-size: 17px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 68px;
+  background-color: #f8f8f8;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
