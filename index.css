@@ -107,8 +107,8 @@ main {
 }
 
 .project-image img {
-  width: 80%;
-  height: 60%;
+  width: 100%;
+  height: auto;
   transition: transform 0.3s ease; /* Add transition for smooth enlargement */
 }
 
@@ -156,6 +156,7 @@ footer p {
     max-width: 100%;
   }
 }
+
 
 
   .project {
