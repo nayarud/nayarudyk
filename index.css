@@ -28,7 +28,7 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   color: #2d2d2d;
-  font-weight: semibold;
+  font-weight: 600; /* Changed semibold to 600 */
 }
 
 .hero {
@@ -46,12 +46,12 @@ header nav ul li a {
 
 .hero-text h1 {
   font-size: 20px;
-  font-weight: semibold;
+  font-weight: 600; /* Changed semibold to 600 */
 }
 
 .hero-text h2 {
   font-size: 30px;
-  font-weight: semibold;
+  font-weight: 600; /* Changed semibold to 600 */
 }
 
 .hero-text p {
@@ -82,7 +82,7 @@ main {
 
 .projects h2 {
   font-size: 32px;
-  font-weight: semibold;
+  font-weight: 600; /* Changed semibold to 600 */
   margin-bottom: 40px;
   text-align: center;
 }
@@ -93,49 +93,32 @@ main {
   gap: 20px;
 }
 
-.project1 {
+.project {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: start;
   max-width: 30%;
-}
-
-.project1 img {
-  transition: transform 0.3s ease; /* Add transition for smooth enlargement */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-.project1 img:hover {
-  transform: scale(1.1); /* Enlarge image on hover */
-}
-.project2 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  max-width: 30%;
-}
-.project3 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  max-width: 30%;
+.project-image:hover {
+  transform: scale(1.08); /* Enlarge project on hover */
 }
 
 .project-image img {
-  width: 418px;
-  height: 330px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add transition for smooth enlargement */
 }
 
 .project-info {
-  max-width: 60%;
+  max-width: 100%;
 }
 
 .project-info h3 {
   font-size: 20px;
-  font-weight: semibold;
+  font-weight: 600; /* Changed semibold to 600 */
 }
 
 .project-info p {
@@ -151,4 +134,25 @@ footer {
 footer p {
   margin: 0;
   font-size: 14px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 34px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project {
+    max-width: 100%;
+  }
 }
