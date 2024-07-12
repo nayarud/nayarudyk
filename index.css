@@ -107,7 +107,7 @@ main {
 }
 
 .project-image img {
-  width: 100%;
+  width: 140%;
   height: auto;
   transition: transform 0.3s ease; /* Add transition for smooth enlargement */
 }
