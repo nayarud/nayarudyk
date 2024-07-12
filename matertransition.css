@@ -1,0 +1,289 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 68px;
+  background-color: #f8f8f8;
+}
+
+header .h1 {
+  font-size: 2px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-weight: semibold;
+}
+
+.project-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 68px;
+  background-color: #e0e0e0;
+  height: 440px;
+}
+
+.project-hero-text {
+  max-width: 450px;
+}
+
+.project-title {
+  font-size: 36px;
+  font-weight: semibold;
+  margin-bottom: 24px;
+}
+
+.project-description {
+  font-size: 17px;
+  font-weight: regular;
+}
+
+.project-hero-image img {
+  width: 600px;
+  height: 426px;
+  object-fit: cover;
+}
+
+.project-overview {
+  margin-left: 68px;
+  height: 620px;
+  align-content: center;
+}
+
+.project-overview h2 {
+  margin-bottom: 0px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: semibold;
+  margin-bottom: 24px;
+  text-align: start;
+  letter-spacing: 1px;
+}
+
+.section-heading {
+  margin-bottom: 24px;
+}
+
+.section-description {
+  font-size: 17px;
+  margin-bottom: 32px;
+  font-style: italic;
+  color: #5e6b81;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-item {
+  display: flex;
+  margin: 0px;
+}
+
+.detail-title {
+  font-size: 17px;
+  font-weight: bold;
+  width: 160px;
+  margin: 0px;
+}
+
+.detail-content {
+  font-size: 17px;
+  font-weight: regular;
+  flex-grow: 1;
+  text-align: start;
+  max-width: 40%;
+  margin: 0px;
+  max-width: 50%;
+  color: #5e6b81;
+}
+
+.section-box {
+  height: 590px;
+  margin: 42px 68px;
+}
+
+.section-description {
+  max-width: 42%;
+  line-height: 118%;
+}
+
+.key-research-insights {
+  height: 620px;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+
+.key-research-insights h2 {
+  margin-bottom: 56px;
+  font-size: 32px;
+}
+
+.points {
+  display: flex;
+  justify-content: flex-start;
+  gap: 108px;
+}
+
+.point-block {
+  max-width: 530px;
+}
+
+.point-block li {
+  margin-bottom: 24px;
+  color: #5e6b81;
+}
+
+.point-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.section-container {
+  padding-bottom: 68px;
+  margin-left: 68px;
+  margin-right: 68px;
+  height: 620px;
+}
+
+.under-description {
+  max-width: 1200px;
+  color: #5e6b81;
+}
+
+.patient-personas img {
+  max-width: 337px;
+
+  margin-top: 32px;
+}
+.patient-personas h3 {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.patient-personas {
+  max-width: 337px;
+}
+
+.title-personas {
+  margin-bottom: 32px;
+  max-width: 70%;
+}
+
+.three-personas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.journey1 {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.portfolio-section {
+  padding: 20px 68px;
+}
+
+.section-header {
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: semibold;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.section-description {
+  font-size: 17px;
+  font-style: italic;
+  color: #5e6b81;
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.image-with-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  width: 48%;
+}
+
+.image-with-details img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.image-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.detail-content .tick,
+.detail-content .cross {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.detail-content .tick::before,
+.detail-content .cross::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.detail-content .tick::before {
+  content: "✔";
+  color: green;
+}
+
+.detail-content .cross::before {
+  content: "✘";
+  color: red;
+}
